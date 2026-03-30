@@ -15,31 +15,31 @@ export function ServicesSection() {
           }`}
         >
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
-            Услуги
+            Возможности
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Наши компетенции</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Что умеет платформа</p>
         </div>
 
         <div className="grid gap-8 md:grid-cols-2 md:gap-x-16 md:gap-y-12 lg:gap-x-24">
           {[
             {
-              title: "Веб-разработка",
-              description: "Создание современных веб-приложений любой сложности",
+              title: "Интерактивные карты",
+              description: "Создавайте живые карты с кликабельными метками, кластерами и всплывающими подсказками",
               direction: "top",
             },
             {
-              title: "UI/UX Дизайн",
-              description: "Проектирование удобных и красивых интерфейсов",
+              title: "Публикация за секунды",
+              description: "Готовую карту можно встроить на любой сайт или поделиться ссылкой одним кликом",
               direction: "right",
             },
             {
-              title: "Мобильные приложения",
-              description: "Кроссплатформенная разработка для iOS и Android",
+              title: "Совместная работа",
+              description: "Приглашайте коллег и редактируйте карту вместе в реальном времени",
               direction: "left",
             },
             {
-              title: "Консалтинг",
-              description: "Техническая экспертиза и стратегическое планирование",
+              title: "Аналитика и данные",
+              description: "Импорт из Excel и CSV, экспорт данных, статистика просмотров каждой локации",
               direction: "bottom",
             },
           ].map((service, i) => (
